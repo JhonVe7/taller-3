@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
 
 /**
  * TALLER 3 - Estructura de Datos- punto 5
- *@author Jhon ve
+ *@author JhonVe7
  * @date 25-11-2017
  * @version 2
  */
@@ -38,7 +38,7 @@ public class quinto{
 	    }
 	}
 	
-	// imprime como se vería la matriz con los datos del rombo 
+	// imprime como se verÃ­a la matriz con los datos del rombo 
 	public static void imprimerombo(int [][] matrix, int n){
 		 if(n%2 == 0){
 			for (int i = 0; i < n; i++) {
@@ -73,7 +73,7 @@ public class quinto{
 		BufferedReader br = new BufferedReader (new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter (new OutputStreamWriter(System.out));
 			
-		bw.write("Escriba el tamaño de la Matriz: ");
+		bw.write("Escriba el tamaÃ±o de la Matriz: ");
 		bw.flush();	
 		int m = Integer.parseInt(br.readLine());	
 		int [][] matrix = new int [m][m];
