@@ -4,7 +4,7 @@
 /*
 *
 *TALLER 3 - Estructura de Datos- punto 4
-*	@author Jhon ve
+*	@author JhonVe7
 *	@date 25-11-2017
 *	@version 2
 *
@@ -19,7 +19,7 @@ string NumberToString(int pNumber){
 }
 
 int main (int argc, char* argv[]){
-// ingreso del tamaño y definicion de las dimenciones de la matriz y su transpuesta
+// ingreso del tamaÃ±o y definicion de las dimenciones de la matriz y su transpuesta
 int m = 0 ;
 cout << "ingrese las dimenciones de la Matriz: ";
 cin >> m ;
@@ -45,7 +45,7 @@ int matrizB [m][m];
 	//LLena la transpuesta de la matriz original
 	for (int i=0;i<m;i++){
 		for(int j=0;j<m;j++){
-		matrizB [j][i]=matriz[j][i]; // Definición de la transpuesta
+		matrizB [j][i]=matriz[j][i]; // DefiniciÃ³n de la transpuesta
 		}
 	}
 	
