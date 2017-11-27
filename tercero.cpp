@@ -5,7 +5,7 @@
 /*
 *
 *TALLER 3 - Estructura de Datos- punto 3
-*	@author Jhon ve
+*	@author JhonVe7
 *	@date 25-11-2017
 *	@version 2
 *
