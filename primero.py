@@ -1,7 +1,7 @@
 '''
 Created on 26 nov. 2017
 
-@author: Danicas99
+@author: JhonVe7
 '''
 import random
 
