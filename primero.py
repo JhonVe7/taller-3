@@ -27,7 +27,7 @@ print()
 mt = (filas//2)
 
 if filas%2 != 0: 
-     
+  
     for f in range(0,filas):
         for c in range(0,filas):
             if (f+c>=(mt) and f+(mt)>= c and c+(mt)>= f and f+c<=(mt)+filas-1):
