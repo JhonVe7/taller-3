@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 /**
- * TALLER 3 - Estructura de Datos- punto 5
+ * TALLER 3 - Data Estructure - N° 5
  *@author JhonVe7
  * @date 25-11-2017
  * @version 2
@@ -15,8 +15,7 @@ import java.io.OutputStreamWriter;
 
 public class quinto{
 	
-	//llena la matriz de numeros aleatorios de 0 a 9
-	
+	// fill the random number matrix from 0 to 9	
 	public static void llena(int [][] matrix, int minRandom, int maxRandom) {
 		minRandom = 0;
 		maxRandom = 9;
@@ -27,7 +26,7 @@ public class quinto{
 	    }
 	}
 		
-	// imprime como se veria la matriz completa 
+	// print what the entire matrix would look like
 	
 	public static void imprimenatural(int [][] matrix){
 		for (int i = 0; i < matrix.length; i++) {
@@ -38,12 +37,14 @@ public class quinto{
 	    }
 	}
 	
-	// imprime como se vería la matriz con los datos del rombo 
+	
+	// print what the matrix would look like with the diamond data
 	public static void imprimerombo(int [][] matrix, int n){
 		 if(n%2 == 0){
 			for (int i = 0; i < n; i++) {
 				for (int j = 0; j < n; j++) {
-					if (i+j >= (n/2)-1 && i+(n/2) >= j && j+(n/2) >= i && i+j <= (n/2)+n-1){ //limites del rombo para una matriz par
+					// rhombus limits for an even matrix
+					if (i+j >= (n/2)-1 && i+(n/2) >= j && j+(n/2) >= i && i+j <= (n/2)+n-1){ 
 						System.out.print("[" + matrix[i][j] + "]");
 					}
 					else{
@@ -56,7 +57,8 @@ public class quinto{
 		 else{
 			 for (int i = 0; i < n; i++) {
 					for (int j = 0; j < n; j++) {
-						if (i+j >= (n/2) && i+(n/2) >= j && j+(n/2) >= i && i+j <= (n/2)+n-1){ //limites del rombo para una matriz impar
+						// rhombus limits for an odd matrix
+						if (i+j >= (n/2) && i+(n/2) >= j && j+(n/2) >= i && i+j <= (n/2)+n-1){ 
 							System.out.print("[" + matrix[i][j] + "]");
 						}
 						else{
