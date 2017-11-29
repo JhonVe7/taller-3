@@ -3,7 +3,7 @@
 #include <sstream>
 /*
 *
-*TALLER 3 - Estructura de Datos- punto 4
+*TALLER 3 - Data Estructure - N° 4
 *	@author JhonVe7
 *	@date 25-11-2017
 *	@version 2
@@ -11,7 +11,7 @@
 */
 using namespace std;
 
-// Metodo de conversion int a string 
+// Method of conversion int a string
 string NumberToString(int pNumber){
  ostringstream oOStrStream;
  oOStrStream << pNumber;
@@ -19,7 +19,7 @@ string NumberToString(int pNumber){
 }
 
 int main (int argc, char* argv[]){
-// ingreso del tamaño y definicion de las dimenciones de la matriz y su transpuesta
+// input of the size and definition of the dimensions of the matrix and its transpose
 int m = 0 ;
 cout << "ingrese las dimenciones de la Matriz: ";
 cin >> m ;
@@ -33,7 +33,7 @@ int matrizB [m][m];
 		}
 	}
 	cout <<"\n";
-	// Imprime la matriz original
+	// Print the original matrix
 	string x;
 	for (int i=0;i<m ;i++){
 		x = "";
@@ -42,15 +42,15 @@ int matrizB [m][m];
 		}
 		cout << x + "\n";	
 	}
-	//LLena la transpuesta de la matriz original
+	// Fill the transpose of the original matrix
 	for (int i=0;i<m;i++){
 		for(int j=0;j<m;j++){
-		matrizB [j][i]=matriz[j][i]; // Definición de la transpuesta
+		matrizB [j][i]=matriz[j][i]; // Definition of the transpose
 		}
 	}
 	
 	cout << "\n\nEspejo: \n\n";
-	// Imprime la Transpuesta de la matriz original
+	// Print the Transpose of the original matrix
 	for (int i=0;i<m ;i++){
 		x = "";
 		for (int j= 0 ;j<m ;j++){
