@@ -1,4 +1,4 @@
 # taller-3
- En este repositorio estan desarrollados los puntos del taller de Estructura de dato N°3
- en el cual se encuentran 5 codigos con el uso de tres idiomas de programación los cuales
- son java,c++ y phyton
+ In this repository are developed the points of the workshop of Data Structure N ° 3
+ in which there are 5 codes with the use of three programming languages which
+ They are java,c++ y phyton
