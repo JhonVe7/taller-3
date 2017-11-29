@@ -6,14 +6,14 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-/**TALLER 3 - Estructura de Datos- punto 2
+/**TALLER 3 - Data Structure- N° 2
  *@author JhonVe7
  * @date 25-11-2017
  * @version 3
  */
 
 public class segundo {
-	//llena la matriz con numeros aleatorios de 0 a 9
+	//fill the matrix with random numbers from 0 to 9
 	public static void llenar(int [][] matrix, int minRandom, int maxRandom){
 		minRandom = 0;
 		maxRandom = 20;
@@ -25,7 +25,7 @@ public class segundo {
 		    }
 		}
 	}
-	// imprime la matriz llena		
+	// print the filled matrix		
 	public static void imprimir(int [][] matrix){
 		
 		for (int i = 0; i < matrix.length; i++) {
@@ -35,7 +35,7 @@ public class segundo {
 			System.out.println("");
 		}
 	}
-	// recorre la matriz en espiral e imprime los numeros en fila
+// scroll through the spiral matrix and print the numbers in a row
 	public static void espiral(int [][] matrix){
 		
 		int m = matrix.length;
@@ -44,7 +44,7 @@ public class segundo {
 		int count = 1;
 		int number1;
 		
-		System.out.println("los numeros del recorrido en espiral son: ");
+		System.out.println("the spiral travel numbers are: ");
 		
 		while(count <= m * m){
 			for (int i = inicio; i <= limite; i++) {
@@ -81,7 +81,7 @@ public class segundo {
 		BufferedReader br = new BufferedReader (new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter (new OutputStreamWriter(System.out));
 				
-		bw.write("Escriba el tamaño de la Matriz: ");
+		bw.write("Write the size of the Matrix: ");
 		bw.flush();
 				
 		int m = Integer.parseInt(br.readLine());
